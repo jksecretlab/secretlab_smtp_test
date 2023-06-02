@@ -15,8 +15,8 @@ if (isset($_POST["send"]))
     $mail->SMTPAuth = true; 
     $mail->Username = 'jktiash123@gmail.com';
     $mail->Password ='atzifypihawcdshe';
-    $mail->SMTPSecure = 'tsl';  
-    $mail->Port = 587;  
+    $mail->SMTPSecure = 'ssl';  
+    $mail->Port = 465;  
 
     $mail->setFrom('jktiash123@gmail.com');
     $mail->addAddress('jktiash123@gmail.com'); 
